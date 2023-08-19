@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function index() {
   return (
-    <section className='mt-20 mb-40 max-w-screen flex flex-col items-center justify-center'>
+    <section className='mt-20 mb-40 max-w-7xl mx-auto flex flex-col items-center justify-center'>
       <div className='w-[90%] bg-bluish h-24 rounded-md'>
         <p className='font-semibold text-white p-2 text-2xl'>My connections</p>
       </div>
