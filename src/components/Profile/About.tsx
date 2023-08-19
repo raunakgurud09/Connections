@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About() {
+export default function About({ about }: any) {
   return (
     <div className='p-4 border border-gray-500/30 drop-shadow-xl bg-white rounded-md space-y-4'>
       <div className='flex justify-between'>
@@ -12,7 +12,7 @@ export default function About() {
 
       </div>
       <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda sed veritatis id soluta beatae recusandae molestias corporis autem, delectus ipsam obcaecati, deserunt voluptates voluptatum fugiat dolore. Quia commodi debitis in eos saepe dignissimos est quod consequatur ad. Assumenda eligendi veritatis suscipit temporibus illum laudantium maxime officia nam, rem itaque.
+        {about}
       </div>
     </div>
   )

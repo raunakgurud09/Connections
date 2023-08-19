@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Skills() {
+export default function Skills({ skills }: any) {
   return (
     <div className='p-4 border border-gray-500/30 drop-shadow-xl bg-white rounded-md space-y-4'>
       <div className='flex justify-between'>
@@ -11,7 +11,7 @@ export default function Skills() {
 
       </div>
       <div>
-
+        {skills}
       </div>
     </div>
   )
