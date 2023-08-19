@@ -49,17 +49,23 @@ export default function DropDown({ children, info }: any) {
 
   return (
     <li ref={dropDownRef} className='relative list-none'>
-      <div onClick={handleCloseDropDown} className='rounded-md  flex p-1'>
-        <div className='w-1/5 flex items-center justify-center'>{children}</div>
-        <div className='px-1 w-3/5 text-blueC'>
-          <p className='text-xs'>welcome back,</p>
-          <p className='font-semibold text-sm'>
-            {info}
-          </p>
+      <div>
+        <div onClick={handleCloseDropDown} className='rounded-md hidden sm:flex flex-row w-h-12 w-52 border border-black/10 p-1 '>
+          <div className='w-1/5 flex items-center justify-center'>{children}</div>
+          <div className='px-1 w-3/5 text-blueC'>
+            <p className='text-xs'>welcome back,</p>
+            <p className='font-semibold text-sm'>
+              {info}
+            </p>
+          </div>
+          <div className='w-1/5 flex items-center justify-center'>
+            <ChevronDown />
+          </div>
         </div>
-        <div className='w-1/5 flex items-center justify-center'>
-          <ChevronDown />
-        </div>
+      </div>
+
+      <div onClick={handleCloseDropDown} className='visible sm:hidden '>
+        <div>{children}</div>
       </div>
 
       <div
@@ -86,7 +92,7 @@ export default function DropDown({ children, info }: any) {
               action={handleConnections}
               text='Connections'
             />
-            
+
           </div>
           <span className="line"></span>
           <div className="flex flex-col px-1 py-0">

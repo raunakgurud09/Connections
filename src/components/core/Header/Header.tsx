@@ -28,7 +28,7 @@ function Header() {
                 <div className='flex items-center justify-between mr-3 text-blueC hover:cursor-pointer'>
                   <Bell />
                 </div>
-                <div className='h-12 w-52 border border-black/10 rounded-md hover:cursor-pointer'>
+                <div className='hover:cursor-pointer'>
                   <DropDown
                     info={currentUser.name.firstName + " " + currentUser.name.lastName}
                   >
