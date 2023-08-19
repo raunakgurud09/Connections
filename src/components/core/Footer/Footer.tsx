@@ -14,12 +14,12 @@ export default function Footer() {
             <div className='ml-3'>
               <Logo />
             </div>
-            <p className='ml-3 text-offWhite'> VENQ Technologies Pvt. Ltd.</p>
+            <p className='ml-3 text-offWhite'>  Technologies Pvt. Ltd.</p>
             <p className='ml-3 text-offWhite'> &#169; {year}</p>
             <p className='text-xs ml-3 text-offWhite'>
-              Kalyani nagar, Pune
+              
             </p>
-            <p className='text-xs ml-3 text-offWhite'> +91 81712 21234</p>
+            <p className='text-xs ml-3 text-offWhite'> </p>
             <div className='text-300 ml-1 flex items-center space-x-4 p-2'>
               {socials.map((social) => (
                 <a
