@@ -3,22 +3,22 @@ const footer = [
     heading: 'Socials',
     options: [
       {
-        url: 'https://www.instagram.com/fullcover.in/',
+        url: 'https://www.instagram.com/',
         name: 'Instagram',
         blank: true,
       },
       {
-        url: 'https://www.linkedin.com/company/fullcover/about/',
+        url: 'https://www.linkedin.com/',
         name: 'Linkedin',
         blank: true,
       },
       {
-        url: 'https://twitter.com/fullcover_in',
+        url: 'https://twitter.com/',
         name: 'Twitter',
         blank: true,
       },
       {
-        url: 'mailto:team@fullcover.in',
+        url: 'mailto:raunakgurud2121@gmail.com',
         name: 'Mail',
         blank: true,
       },

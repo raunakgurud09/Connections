@@ -50,7 +50,7 @@ function MyApp({ Component, pageProps }: MyAppProps): JSX.Element {
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <div className='flex flex-col '>
               <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
-                <div className='min-h-screen'>
+                <div className='min-h-screen '>
                   <Component {...pageProps} />
                 </div>
               </GoogleOAuthProvider>

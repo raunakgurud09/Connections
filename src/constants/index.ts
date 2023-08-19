@@ -20,3 +20,6 @@ export const GTAG_ID = 'G-SXVGSQRNG0';
 
 export const APP_NAME = 'Fullcover';
 export const APP_DESCRIPTION = 'BOOK YOUR TICKETS NOW';
+
+export const default_image =
+  'https://res.cloudinary.com/dteeyk2sb/image/upload/v1692425073/connections/profile/Sat%20Aug%2019%202023%2011:34:26%20GMT%2B0530%20%28India%20Standard%20Time%29.png';

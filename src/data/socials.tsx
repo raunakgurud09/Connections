@@ -15,13 +15,13 @@ const socials: Social[] = [
   {
     id: 'twitter',
     name: 'Twitter',
-    url: 'https://twitter.com/fullcover_in',
+    url: 'https://twitter.com/',
     icon: <TwitterLogo />,
   },
   {
     id: 'linkedin',
     name: 'Linkedin',
-    url: 'https://www.linkedin.com/company/fullcover/about/',
+    url: 'https://www.linkedin.com/',
     icon: <LinkedinLogo />,
   },
 ];

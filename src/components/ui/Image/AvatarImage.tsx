@@ -1,6 +1,6 @@
 import NextImage from 'next/image';
-import defaultImage from "../../../../public/Images/defaultAvatar.png"
 import cx from "classnames"
+import { default_image } from '@/constants/index';
 
 interface props {
   src: string;
@@ -17,7 +17,9 @@ const AvatarImage = ({ src, alt, ...rest }: props) => {
         {src === '' ? (
           <NextImage
             alt={alt}
-            src={defaultImage}
+            src={default_image}
+            width={48}
+            height={48}
             {...rest}
             className='rounded-md w-8 h-8'
           />
@@ -28,7 +30,7 @@ const AvatarImage = ({ src, alt, ...rest }: props) => {
             {...rest}
             width={48}
             height={48}
-            className={cx('rounded-md w-8 h-8',rest)}
+            className={cx('rounded-md w-8 h-8', rest)}
           />
         )}
       </div>
